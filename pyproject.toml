@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "eager-mot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+filterpy = "^1.4.5"
+glob2 = "^0.7"
+more-itertools = "^10.2.0"
+numba = "^0.59.1"
+nuscenes-devkit = "^1.1.11"
+opencv-python = "^4.10.0.82"
+matplotlib = "^3.5.3"
+pyquaternion = "^0.9.9"
+scipy = "^1.13.1"
+shapely = "^1.7.0"
+pandas = "^2.2.2"
+motmetrics = "^1.4.0"
+imageio = "^2.34.1"
+ujson = "^5.10.0"
+open3d = "^0.18.0"
+pyyaml = "^6.0.1"
+addict = "^2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pytest-mock = "^3.14.0"
+ruff = "^0.4.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

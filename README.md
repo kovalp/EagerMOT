@@ -14,13 +14,13 @@ This repo contains code for our ICRA 2021 paper. Benchmark results can be fully 
 
 An earlier version of this work has also appeared as a short [4-page paper](https://motchallenge.net/workshops/bmtt2020/papers/EagerMOT.pdf) at the [CVPR 2020 MOTChallenge Workshop](https://motchallenge.net/workshops/bmtt2020/).
 
-![Visual](figures/test_visualization.gif)
+![Visual](src/eager_mot/figures/test_visualization.gif)
 
 
 ## Abstract
 Multi-object tracking (MOT) enables mobile robots to perform well-informed motion planning and navigation by localizing surrounding objects in 3D space and time. Existing methods rely on depth sensors (e.g., LiDAR) to detect and track targets in 3D space, but only up to a limited sensing range due to the sparsity of the signal. On the other hand, cameras provide a dense and rich visual signal that helps to localize even distant objects, but only in the image domain. In this paper, we propose EagerMOT, a simple tracking formulation that eagerly integrates all available object observations from both sensor modalities to obtain a well-informed interpretation of the scene dynamics. Using images, we can identify distant incoming objects, while depth estimates allow for precise trajectory localization as soon as objects are within the depth-sensing range. With EagerMOT, we achieve state-of-the-art results across several MOT tasks on the KITTI and NuScenes datasets.
 
-![Diagram](figures/eagermot_diagram_2.png)
+![Diagram](src/eager_mot/figures/eagermot_diagram_2.png)
 
 ## Benchmark results
 
